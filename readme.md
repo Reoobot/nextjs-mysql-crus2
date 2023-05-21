@@ -1,4 +1,6 @@
-npx create-next-app nextjs-mysql-crud
+npx create-next-app 
+
+nextjs-mysql-crud
 
 npm i mysql2 axios
 
