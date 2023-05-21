@@ -38,7 +38,7 @@ const renderProducts = ()=>{
       );
     }
     export const getServerSideProps = async (context) => {
-      const {data: products} = await axios.get('http://localhost:3000/api/products')
+      const {data: products} = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/products`)
       // console.log(res.data);
     return {
       props:{
